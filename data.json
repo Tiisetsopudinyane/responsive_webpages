@@ -9,14 +9,15 @@
         "description" : "The Bosphorus Bridge (Turkish: Boğaziçi Köprüsü), known officially as the 15 July Martyrs Bridge (Turkish: 15 Temmuz Şehitler Köprüsü) and colloquially as the First Bridge (Turkish: Birinci Köprü), is the southernmost of the three suspension bridges spanning the Bosphorus strait (Turkish: Boğaziçi) in Istanbul, Turkey"
     },
     "foreignLanguage" : {
-        "language" : "Foreign Languages",
+        "language" : "Foreign Language",
+        "english":"Translation",
         "phrases" : [{
-            "englishPhrase" : "it will be useful while traveling to spanish speaking countries",
-            "foreignLanguage" : "Spanish"
+            "englishPhrase" : "i love my girlfriend very much",
+            "foreignLanguage" : "benim kiz arkadas Cok Seviyorum"
         },
         {
-            "englishPhrase" : "In Africa there are places that speaks French,and it will be beneficiary to know French make business deal with Africans",
-            "foreignLanguage" : "French"
+            "englishPhrase" : "Good Morning",
+            "foreignLanguage" : "Gunaydin"
         }]
     },
     "historicalPlace":"HISTORICAL PLACES",
