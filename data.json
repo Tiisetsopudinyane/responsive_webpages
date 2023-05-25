@@ -1,0 +1,37 @@
+{
+    "user" : {
+        "fullName": "Samuel Tiisetso Pudinyane",
+        "photo" : "./images/malva1.jpg"
+    },
+    "city" : {
+        "name" : "ISTANBUL, TURKIYE",
+        "photo" : "./images/istanbul.jpg",
+        "description" : "The Bosphorus Bridge (Turkish: Boğaziçi Köprüsü), known officially as the 15 July Martyrs Bridge (Turkish: 15 Temmuz Şehitler Köprüsü) and colloquially as the First Bridge (Turkish: Birinci Köprü), is the southernmost of the three suspension bridges spanning the Bosphorus strait (Turkish: Boğaziçi) in Istanbul, Turkey"
+    },
+    "foreignLanguage" : {
+        "language" : "Foreign Languages",
+        "phrases" : [{
+            "englishPhrase" : "it will be useful while traveling to spanish speaking countries",
+            "foreignLanguage" : "Spanish"
+        },
+        {
+            "englishPhrase" : "In Africa there are places that speaks French,and it will be beneficiary to know French make business deal with Africans",
+            "foreignLanguage" : "French"
+        }]
+    },
+    "historicalPlace":"HISTORICAL PLACES",
+    "favouriteCity" : [
+        {
+            "description" : "Bahcesehir is Located in the heart of Istanbul on the European side of the city, within the borders of Basaksehir Municipality, the site of Bahcesehir and Ispartakule is close to the city's mega project areas, Such as the third Istanbul Bridge project",
+            "img" : "./images/istanbul-bahcesehir-university.jpg"
+        },
+        {
+            "description" : "Frankfurt Airport is Germany's main international airport by passenger numbers and is located in Frankfurt, the fifth-largest city of Germany and one of the world's leading financial centres. It is operated by Fraport and serves as the main hub for Lufthansa, including Lufthansa CityLine and Lufthansa Cargo as well as Condor and AeroLogic",
+            "img" : "./images/frunckfurt-Airport.jpg"
+        },
+        {
+            "description" : "Ficksburg is a town situated at the foot of the 1,750 meter high Imperani Mountain in Free State province, South Africa. The town was founded by General Johan Fick in 1867 who won the territory in the Basotho Wars. He laid out many erven and plots that could be bought at a reasonable price. The town was later proclaimed a municipality in 1891",
+            "img" : "./images/Ficksburg-LARGE.jpg" 
+        }
+    ]
+}
