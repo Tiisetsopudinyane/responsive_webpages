@@ -34,5 +34,9 @@
             "description" : "Ficksburg is a town situated at the foot of the 1,750 meter high Imperani Mountain in Free State province, South Africa. The town was founded by General Johan Fick in 1867 who won the territory in the Basotho Wars. He laid out many erven and plots that could be bought at a reasonable price. The town was later proclaimed a municipality in 1891",
             "img" : "./images/Ficksburg-LARGE.jpg" 
         }
-    ]
+    ],
+    "pages":{
+        "bootstrapPage":"./index-bootstrap.html",
+        "materializePage":"./index-materialize.html"
+    }
 }
