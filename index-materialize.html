@@ -10,8 +10,8 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-6 col-md-5 col-s-12"><h1>{{user.fullName}}</h1></div> 
-            <div class="col-6 col-md-5 col-s-12 img"><img src={{user.photo}}></div>
+            <div class="col l5 m5 s12"><h1>{{user.fullName}}</h1></div> 
+            <div class="col l5 m5 s12"><img class="circle" src={{user.photo}}></div>
         </div>
     </div>
     <div class="divider container"></div>
@@ -26,22 +26,26 @@
     <div class="container">
         <h3><strong><u>{{city.name}}</u></strong></h3>
         <div class="row">
-            <div class="col-6 col-md-5 col-s-12"><img src={{city.photo}}></div>
-            <div class="col-6 col-md-5 col-s-12"><p>{{city.description}}</p></div>
+            <div class="col l5 m5 s12"><img src={{city.photo}}></div>
+            <div class="col l5 m5 s12"><p>{{city.description}}</p></div>
         </div>
         <br>
         <table>
-            <tr>
-                <th>{{foreignLanguage.language}}</th>
-                <th>{{foreignLanguage.english}}</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>{{foreignLanguage.language}}</th>
+                    <th>{{foreignLanguage.english}}</th>
+                </tr>
+            </thead>
             
+             <tbody>
                 {{#each foreignLanguage.phrases}}
-            <tr>
-                <td>{{foreignLanguage}}</td>
-                <td>{{englishPhrase}}</td>
-            </tr>
-                {{/each}}
+                <tr>
+                    <td>{{foreignLanguage}}</td>
+                    <td>{{englishPhrase}}</td>
+                </tr>
+                    {{/each}}
+             </tbody>
             
         </table>
         <br>
@@ -49,8 +53,8 @@
             <p> <strong>{{historicalPlace}}</strong></p>
             {{#each favouriteCity}}
             <div class="row">
-                <div class="col-6 col-md-5 col-s-12"><p>{{description}}</p></div>
-                <div class="col-6 col-md-5 col-s-12"><img src={{img}}></div>
+                <div class="col l5 m5 s12"><p>{{description}}</p></div>
+                <div class="col l5 m5 s12 responsive-img"><img src={{img}}></div>
             </div>
             {{/each}}
             
