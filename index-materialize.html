@@ -9,8 +9,8 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col l5 m5 s12"><h1>{{data.user.fullName}}</h1></div> 
-            <div class="col l5 m5 s12"><img class="circle" src={{data.user.photo}}></div>
+            <div class="col l5 m12 s12"><h1>{{data.user.fullName}}</h1></div> 
+            <div class="col l5 m12 s12" ><img class="circle" src={{data.user.photo}}></div>
         </div>
     </div>
     <div class="divider container"></div>
@@ -25,8 +25,8 @@
     <div class="container">
         <h3><strong><u>{{data.city.name}}</u></strong></h3>
         <div class="row">
-            <div class="col l5 m5 s12"><img src={{data.city.photo}}></div>
-            <div class="col l5 m5 s12"><p>{{data.city.description}}</p></div>
+            <div class="col l5 m12 s12"><img class="responsive-img" max-width="100" src={{data.city.photo}}></div>
+            <div class="col l5 m12 s12"><p>{{data.city.description}}</p></div>
         </div>
         <br>
         <table>
@@ -52,8 +52,8 @@
             <p> <strong>{{data.historicalPlace}}</strong></p>
             {{#each data.favouriteCity}}
             <div class="row">
-                <div class="col l5 m5 s12"><p>{{description}}</p></div>
-                <div class="col l5 m5 s12 responsive-img"><img src={{img}}></div>
+                <div class="col l5 m12 s12"><p>{{description}}</p></div>
+                <div class="col l5 m12 s12"><img class="responsive-img" max-width="100px" src={{img}}></div>
             </div>
             {{/each}}
             
