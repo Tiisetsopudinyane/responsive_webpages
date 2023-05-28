@@ -10,36 +10,36 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col l5 m5 s12"><h1>{{user.fullName}}</h1></div> 
-            <div class="col l5 m5 s12"><img class="circle" src={{user.photo}}></div>
+            <div class="col l5 m5 s12"><h1>{{data.user.fullName}}</h1></div> 
+            <div class="col l5 m5 s12"><img class="circle" src={{data.user.photo}}></div>
         </div>
     </div>
     <div class="divider container"></div>
     <br>
         
         <div class="container">
-            <a href="./index.html"  class="btn btn-primary">Home</a>
+            <a href={{data.pages.index}}  class="btn btn-primary">Home</a>
             <br>
-            <span class="color"><a href="./index.html">Home/</a><a href="#">Materialize </a></span>
+            <span class="color"><a href={{data.pages.index}}>Home/</a><a href="#">Materialize </a></span>
         </div>
     <div class="divider container"></div>
     <div class="container">
-        <h3><strong><u>{{city.name}}</u></strong></h3>
+        <h3><strong><u>{{data.city.name}}</u></strong></h3>
         <div class="row">
-            <div class="col l5 m5 s12"><img src={{city.photo}}></div>
-            <div class="col l5 m5 s12"><p>{{city.description}}</p></div>
+            <div class="col l5 m5 s12"><img src={{data.city.photo}}></div>
+            <div class="col l5 m5 s12"><p>{{data.city.description}}</p></div>
         </div>
         <br>
         <table>
             <thead>
                 <tr>
-                    <th>{{foreignLanguage.language}}</th>
-                    <th>{{foreignLanguage.english}}</th>
+                    <th>{{data.foreignLanguage.language}}</th>
+                    <th>{{data.foreignLanguage.english}}</th>
                 </tr>
             </thead>
             
              <tbody>
-                {{#each foreignLanguage.phrases}}
+                {{#each data.foreignLanguage.phrases}}
                 <tr>
                     <td>{{foreignLanguage}}</td>
                     <td>{{englishPhrase}}</td>
@@ -50,8 +50,8 @@
         </table>
         <br>
         <div>
-            <p> <strong>{{historicalPlace}}</strong></p>
-            {{#each favouriteCity}}
+            <p> <strong>{{data.historicalPlace}}</strong></p>
+            {{#each data.favouriteCity}}
             <div class="row">
                 <div class="col l5 m5 s12"><p>{{description}}</p></div>
                 <div class="col l5 m5 s12 responsive-img"><img src={{img}}></div>

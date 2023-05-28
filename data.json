@@ -37,6 +37,7 @@
     ],
     "pages":{
         "bootstrapPage":"./index-bootstrap.html",
-        "materializePage":"./index-materialize.html"
+        "materializePage":"./index-materialize.html",
+        "index":"./index.html"
     }
 }

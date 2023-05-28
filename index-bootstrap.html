@@ -10,24 +10,24 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-6 col-md-5 col-s-12"><h1>{{user.fullName}}</h1></div> 
-            <div class="col-6 col-md-5 col-s-12 img"><img src={{user.photo}}></div>
+            <div class="col-6 col-md-5 col-s-12"><h1>{{data.user.fullName}}</h1></div> 
+            <div class="col-6 col-md-5 col-s-12 img"><img src={{data.user.photo}}></div>
         </div>
     </div>
     <br>
     
         <div class="container">
             <hr>
-            <a href="./index.html"  class="btn btn-primary">Home</a>
+            <a href={{data.pages.index}}  class="btn btn-primary">Home</a>
             <br>
-            <span class="color"><a href="./index.html">Home/</a><a href="#">Bootstrap</a> </span>
+            <span class="color"><a href={{data.pages.index}}>Home/</a><a href="#">Bootstrap</a> </span>
             <hr>
         </div>
     <div class="container">
-        <h3><strong><u>{{city.name}}</u></strong></h3>
+        <h3><strong><u>{{data.city.name}}</u></strong></h3>
         <div class="row">
-            <div class="col-6 col-md-5 col-s-12"><img src={{city.photo}}></div>
-            <div class="col-6 col-md-5 col-s-12"><p>{{city.description}}</p></div>
+            <div class="col-6 col-md-5 col-s-12"><img src={{data.city.photo}}></div>
+            <div class="col-6 col-md-5 col-s-12"><p>{{data.city.description}}</p></div>
         </div>
         <br>
         <table class="table table-bordered">
@@ -35,12 +35,12 @@
              
                 
                 <th>
-                    {{foreignLanguage.language}}
+                    {{data.foreignLanguage.language}}
                 </th>
-                <th>{{foreignLanguage.english}}</th>
+                <th>{{data.foreignLanguage.english}}</th>
             </tr>
             
-                {{#each foreignLanguage.phrases}}
+                {{#each data.foreignLanguage.phrases}}
             <tr>
                 <td>{{foreignLanguage}}</td>
                 <td>{{englishPhrase}}</td>
@@ -50,8 +50,8 @@
         </table>
         <br>
         <div>
-            <p> <strong>{{historicalPlace}}</strong></p>
-            {{#each favouriteCity}}
+            <p> <strong>{{data.historicalPlace}}</strong></p>
+            {{#each data.favouriteCity}}
             <div class="row">
                 <div class="col-6 col-md-5 col-s-12"><p>{{description}}</p></div>
                 <div class="col-6 col-md-5 col-s-12"><img src={{img}}></div>

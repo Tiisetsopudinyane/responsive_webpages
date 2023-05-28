@@ -14,16 +14,16 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>{{user.fullName}}</h1>
+                <h1>{{data.user.fullName}}</h1>
             </div> 
             <div class="col img">
-                <img src="{{user.photo}}">
+                <img src={{data.user.photo}}>
             </div>
         </div>
     
         <div class="p-4 center">
-        <a href={{pages.materializePage}} class="btn btn-primary">Materialize Page 1</a>
-        <a href={{pages.bootstrapPage}} class="btn btn-primary">Bootstrap Page 2</a>
+        <a href={{data.pages.materializePage}} class="btn btn-primary">Materialize Page 1</a>
+        <a href={{data.pages.bootstrapPage}} class="btn btn-primary">Bootstrap Page 2</a>
         </div>
     </div>
 </body>
