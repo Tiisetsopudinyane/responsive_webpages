@@ -39,5 +39,6 @@
         "bootstrapPage":"./index-bootstrap.html",
         "materializePage":"./index-materialize.html",
         "index":"./index.html"
-    }
+    },
+    "css":"./simple-grid.css"
 }
